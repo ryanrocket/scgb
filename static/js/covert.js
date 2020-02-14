@@ -1,1 +1,6 @@
-// COVERT JS FOR SECOND CHANCE GOLF BALLS
+// COVERT.js - UNIVERSAL WEBPAGE FILE by RYAN WANS
+
+~(function() {
+    let _eventQue = [];
+    
+})();
