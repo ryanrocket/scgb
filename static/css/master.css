@@ -28,7 +28,7 @@ I'll try to keep it simple, just try to read carefully
 
 headsection {
     padding: 30px;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
 
@@ -38,3 +38,67 @@ column2 {
     float: left;
 }
 [cright] { text-align: right; margin-right: 60px;}
+
+.ttitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2vh;
+}
+#navitem {
+    text-transform: uppercase;
+    padding-left: 4%;
+    color: #5e5d5d; 
+    /*
+    font-style: italic;
+    */
+}
+[nactive] {font-weight: bold;}
+.fa-shopping-basket {opacity: 50%; font-size: 20px;}
+[necart] {opacity: 90%;}
+headsection > hr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.486);
+    border-style: solid;
+}
+content {
+    position: absolute;
+    top: 82px;
+    width: 100%;
+}
+[scream] {
+    text-align: right;
+    width: 100%;
+    z-index: 1;
+}
+headtitle {
+    position: absolute;
+    z-index: 2;
+    top: 22%;
+    left: 6%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 5vw;
+
+}
+subtitle {
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 6%;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3vw;
+    
+}
+chev {
+    position: absolute;
+    z-index: 3;
+    top: 85%;
+    left: 48%;
+    color: white;
+    font-size: 4vw;
+}

@@ -28,6 +28,9 @@ app.get('/static/css', function(req, res) {
 app.get('/static/js.js', function(req, res) {
     res.sendFile('./static/js/covert.js', {root: __dirname});
 })
+app.get('/assets/golf.jpg', function(req, res) {
+    res.sendFile('./static/assets/cgball.jpg', {root: __dirname});
+})
 // ********************************** //
 
 // 404 Error (Page Not Found)
