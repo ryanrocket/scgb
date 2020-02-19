@@ -6,7 +6,6 @@ html, body, head {
     top: 0;
     font-family: 'PT Sans', sans-serif;
     /* enfore no scroll */
-    overflow-y: hidden;
     overflow-x: hidden;
 }
 /*
@@ -30,6 +29,8 @@ headsection {
     padding: 30px;
     position: fixed;
     width: 100%;
+    z-index: 100 !important;
+    background-color: white;
 }
 
 column2 {
@@ -73,6 +74,7 @@ content {
     text-align: right;
     width: 100%;
     z-index: 1;
+    padding-bottom: 20px;
 }
 headtitle {
     position: absolute;
@@ -97,8 +99,31 @@ subtitle {
 chev {
     position: absolute;
     z-index: 3;
-    top: 85%;
+    top: 67%;
     left: 48%;
     color: white;
     font-size: 4vw;
 }
+marea {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin-top: 20px;
+}
+cheader {
+    font-weight: bold;
+    font-size: 3.8vw;
+    margin-top: 18px;
+}
+marea > hr {
+    position: absolute;
+    bottom: 0;
+    width: 55%;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.486);
+    border-style: solid;
+}
+[cright] > a:hover {
+    cursor: pointer;
+}
+[cright] > a {text-decoration: none!important;}
