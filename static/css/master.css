@@ -99,7 +99,7 @@ subtitle {
 chev {
     position: absolute;
     z-index: 3;
-    top: 67%;
+    top: 65%;
     left: 48%;
     color: white;
     font-size: 4vw;
@@ -116,14 +116,18 @@ cheader {
     margin-top: 18px;
 }
 marea > hr {
-    position: absolute;
     bottom: 0;
     width: 55%;
     margin-left: 30px;
     color: rgba(0, 0, 0, 0.486);
     border-style: solid;
+    margin-bottom: 20px;
 }
 [cright] > a:hover {
     cursor: pointer;
 }
 [cright] > a {text-decoration: none!important;}
+marticle {
+    margin: 30px;
+    margin-top: 20px;
+}
